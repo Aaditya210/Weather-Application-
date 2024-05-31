@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.location-input {
+    margin: 2rem 0;
+    
+}
+
+.location-input input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    
+}
+
+.location-input button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.weather-info {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.weather-info h2 {
+    margin-top: 0;
+}
+
+.weather-info p {
+    margin: 0.5rem 0;
+}
